@@ -1,3 +1,24 @@
+<template>
+  <header>
+    <a href="/index">
+      <img src="./assets/images/logo.svg" alt="Shortly logo" />
+    </a>
+
+    <nav class="nav-links">
+      <ul>
+      <li>Features</li>
+      <li>Pricing</li>
+      <li>Resources</li>
+    </ul>
+    </nav>
+
+    <div class="nav-buttons">
+      <a href="/login">Login</a>
+      <a href="/signup">Sign Up</a>
+    </div>
+  </header>
+</template>
+
 <!-- <script setup>
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
