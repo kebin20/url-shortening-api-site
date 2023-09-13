@@ -8,19 +8,18 @@
 
   </header>
 
-<!-- <main>
+<main>
   <HeroSection/>
   <UrlInput/>
   <StatisticsSection />
-</main> -->
+</main>
 
 </template>
 
 <script setup>
-// import HeroSection from './components/HeroSection.vue'
-// import UrlInput from './components/UrlInput.vue'
+import HeroSection from './components/HeroSection.vue'
+import UrlInput from './components/UrlInput.vue'
 // import StatisticsSection from './components/StatisticsSection.vue'
-import NavBar from './components/NavBar.vue'
 </script>
 
 <style scoped>
