@@ -25,6 +25,9 @@ import NavBar from './components/NavBar.vue'
 
 <style scoped>
 header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5em;
   line-height: 1.5;
 }
 
