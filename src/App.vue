@@ -4,65 +4,29 @@
       <img src="./assets/images/logo.svg" alt="Shortly logo" />
     </a>
 
-    <nav class="nav-links">
-      <ul>
-      <li>Features</li>
-      <li>Pricing</li>
-      <li>Resources</li>
-    </ul>
-    </nav>
+<NavBar />
 
-    <div class="nav-buttons">
-      <a href="/login">Login</a>
-      <a href="/signup">Sign Up</a>
-    </div>
-  </header>
-</template>
-
-<!-- <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
-</script> -->
-
-<!-- <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-    </div>
   </header>
 
-  <main>
-    <TheWelcome />
-  </main>
+<!-- <main>
+  <HeroSection/>
+  <UrlInput/>
+  <StatisticsSection />
+</main> -->
+
 </template>
+
+<script setup>
+// import HeroSection from './components/HeroSection.vue'
+// import UrlInput from './components/UrlInput.vue'
+// import StatisticsSection from './components/StatisticsSection.vue'
+import NavBar from './components/NavBar.vue'
+</script>
 
 <style scoped>
 header {
   line-height: 1.5;
 }
 
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
 
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
-}
-</style> -->
+</style>
